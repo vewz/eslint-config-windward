@@ -186,7 +186,6 @@ module.exports = exports = {
     "prefer-spread": "error",
     "require-yield": "error",
     "vars-on-top": "error",
-    "no-eq-null": "error",
     "no-mixed-spaces-and-tabs": "error"
   }
 };
