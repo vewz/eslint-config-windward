@@ -67,7 +67,7 @@ module.exports = exports = {
       selector: "NewExpression[callee.name='BigInt']",
       message: "BigInt is not a constructor"
     }, {
-      selector: "CallExpression:matches([callee.name='Array'],[callee.name='RegExp'],[callee.name='Function'],[callee.name='Error'],[callee.name='AggregateError'],[callee.name='EvalError'],[callee.name='RangeError'],[callee.name='ReferenceError'],[callee.name='SyntaxError'],[callee.name='TypeError'],[callee.name='URIError'])",
+      selector: "CallExpression:matches([callee.name='Array'],[callee.name='Function'],[callee.name='Error'],[callee.name='AggregateError'],[callee.name='EvalError'],[callee.name='RangeError'],[callee.name='ReferenceError'],[callee.name='SyntaxError'],[callee.name='TypeError'],[callee.name='URIError'])",
       message: "Class constructors require 'new'"
     }, {
       selector: "ClassExpression:matches([superClass.name='Number'],[superClass.name='String'],[superClass.name='Boolean'],[superClass.name='Object'])",
