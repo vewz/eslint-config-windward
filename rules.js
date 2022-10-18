@@ -5,9 +5,9 @@ module.exports = exports = {
     "no-useless-constructor": "warn", // [TODO] custom
     "new-cap": "warn",
     "no-shadow": "warn",
-    "no-cond-assign": "warn", // [CHANGE] :error
+    "no-cond-assign": "error",
     "no-fallthrough": "warn",
-    "no-return-assign": "warn", // [CHANGE] :error
+    "no-return-assign": "error",
     "consistent-return": "warn",
     "no-unreachable-loop": "warn",
     "no-unused-expressions": "warn", // [TODO] custom
@@ -19,12 +19,12 @@ module.exports = exports = {
     "no-ex-assign": "warn",
     "no-promise-executor-return": "warn",
     "no-setter-return": "warn",
-    "no-unsafe-negation": "warn", // [CHANGE] :error
-    "no-unsafe-optional-chaining": "warn", // [CHANGE] :error
+    "no-unsafe-negation": "error",
+    "no-unsafe-optional-chaining": "error",
     "require-atomic-updates": "warn",
     "consistent-this": "warn",
     "default-case-last": "warn", // [CHANGE] :error
-    "no-confusing-arrow": "warn", // [CHANGE] :error
+    "no-confusing-arrow": "error",
     "no-loop-func": "warn",
     "no-param-reassign": "warn",
     "radix": "error",
