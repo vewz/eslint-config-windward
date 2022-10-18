@@ -23,7 +23,7 @@ module.exports = exports = {
     "no-unsafe-optional-chaining": "error",
     "require-atomic-updates": "warn",
     "consistent-this": "warn",
-    "default-case-last": "warn", // [CHANGE] :error
+    "default-case-last": "warn",
     "no-confusing-arrow": "error",
     "no-loop-func": "warn",
     "no-param-reassign": "warn",
