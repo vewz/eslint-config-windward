@@ -17,7 +17,7 @@ module.exports = exports = {
     "no-use-before-define": ["warn", "nofunc"], // [TODO] custom
     "for-direction": "warn",
     "no-ex-assign": "warn",
-    "no-promise-executor-return": "warn",
+    "no-promise-executor-return": "warn", // [TODO] custom
     "no-setter-return": "warn",
     "no-unsafe-negation": "error",
     "no-unsafe-optional-chaining": "error",
