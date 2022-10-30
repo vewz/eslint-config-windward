@@ -1,7 +1,7 @@
 module.exports = exports = {
   rules: {
     "no-await-in-loop": "warn",
-    "prefer-template": "warn", // [TODO] custom
+    "prefer-template": "error",
     "no-useless-constructor": "warn", // [TODO] custom
     "new-cap": "warn",
     "no-shadow": "warn",
