@@ -14,10 +14,10 @@ module.exports = exports = {
     "class-methods-use-this": "warn",
     "no-template-curly-in-string": "warn",
     "no-unmodified-loop-condition": "warn",
-    "no-use-before-define": ["warn", "nofunc"], // [TODO] custom
+    "no-use-before-define": ["warn", "nofunc"],
     "for-direction": "warn",
     "no-ex-assign": "warn",
-    "no-promise-executor-return": "warn", // [TODO] custom
+    "no-promise-executor-return": "warn",
     "no-setter-return": "warn",
     "no-unsafe-negation": "error",
     "no-unsafe-optional-chaining": "error",
