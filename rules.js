@@ -3,6 +3,7 @@ module.exports = exports = {
     "no-await-in-loop": "warn",
     "prefer-template": "error",
     "no-useless-constructor": "off",
+    "no-control-regex": "off",
     "new-cap": "warn",
     "no-shadow": "warn",
     "no-cond-assign": "error",
