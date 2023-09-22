@@ -179,7 +179,6 @@ module.exports = exports = {
     "prefer-object-spread": "error",
     "prefer-promise-reject-errors": "error",
     "prefer-spread": "error",
-    "require-yield": "error",
     "vars-on-top": "error",
     "no-mixed-spaces-and-tabs": "error"
   }
